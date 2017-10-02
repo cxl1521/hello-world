@@ -16,5 +16,8 @@ public class TriangleTest {
 		public void test() {
 			assertEquals(t.Tritype(0, 0, 0), 3);
 		}
-
+	
+		public void test2() {
+			assertEquals(t.Tritype(2, 3, 4), 4);
+		}
 }
