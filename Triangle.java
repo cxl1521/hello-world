@@ -10,9 +10,9 @@ public class Triangle {
 /* Should return the type of the triangle 
 which has sides of these lengths.
 3 = not a triangle
-2 = equilateral triangle
-1 = isosceles triangle
-0 = scalene triangle
+2 = equilateral triangle (全等三角形)
+1 = isosceles triangle (等腰三角形)
+0 = scalene triangle (銳角三角形)
 */
 	public int Tritype(int i, int j, int k){
 		int trityp = 0;
